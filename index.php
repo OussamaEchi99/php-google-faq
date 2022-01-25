@@ -94,7 +94,7 @@
                         <p><?php echo '<p>' . $text['text1'] . '</p>' ?></p>
                         <ul>
                             <?php foreach($paragraph_section as $text) { ?>
-                                
+                                <li></li>
                             <?php } ?>
                         </ul>
                     <?php } ?>
