@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo_title{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    line-height: 27px;
+}
+
+.logo_title span{
+    font-size: 22px;
+    margin-left: 3px;
+}
+
+img{
+    width: 74px;
+}
+
+.links_sections{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+
+.links_sections a{
+    margin: 0 15px;
+}
+
+/* MAIN */
+.container{
+    width: 978px;
+    margin: auto;
+    padding: 32px;
+}
+
+.container p{
+    padding-top: 20px;
+    margin: 10px 0;
+}
